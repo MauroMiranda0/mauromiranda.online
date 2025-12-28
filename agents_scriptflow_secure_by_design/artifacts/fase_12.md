@@ -18,6 +18,7 @@
 - TLS/HTTPS forzado.
 - Headers de seguridad definidos.
 - CSP validado con recursos necesarios.
+- Formspree con dominios autorizados y notificaciones activas.
 
 ### Checklist de release
 - Pruebas de QA y seguridad aprobadas.

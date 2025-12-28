@@ -34,13 +34,21 @@
   - beneficios
   - orden
 
+- Proyecto (contenido publico)
+  - id
+  - titulo
+  - descripcion
+  - enlace
+  - orden
+
 ### Persistencia
-- No se almacena en base de datos; los leads se envian por email.
+- Contenido publico estatico (sin base de datos).
+- Leads se envian por email via Formspree.
 
 ### Clasificacion de datos
 - PII: LeadContacto.nombre, LeadContacto.email, LeadContacto.empresa
 - Sensible: LeadContacto.mensaje (puede incluir datos de negocio)
-- Publico: CasoExito, Servicio
+- Publico: CasoExito, Servicio, Proyecto
 
 ### Politica de retencion
 - Emails no calificados: eliminar/anonimizar despues de 4 meses.

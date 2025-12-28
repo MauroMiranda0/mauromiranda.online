@@ -10,7 +10,7 @@
 - Posicionar a Mauro Miranda como Ingeniero Web Estrategico y convertir visitas en contactos calificados.
 
 ### Alcance inicial
-- Sitio web tipo portafolio con paginas: Home, Servicios, Sobre mi, Casos de exito, Contacto.
+- Sitio web tipo portafolio con secciones: Home, Servicios, Metodo, Proyectos, Casos, Sobre mi, Contacto.
 - Enfoque en conversion, autoridad tecnica y propuesta de valor clara.
 
 ### Limites del sistema
@@ -20,8 +20,7 @@
 ### Actores
 - Visitantes B2B (prospectos).
 - Cliente/propietario del portafolio.
-- Administrador de contenido.
-- Proveedores externos (hosting, analitica, email/form).
+- Proveedores externos (hosting, analitica, Formspree).
 
 ### Datos sensibles (preliminar)
 - Datos de contacto enviados por formularios (nombre, email, empresa, mensaje).
@@ -33,7 +32,7 @@
 
 ### Fronteras de confianza (texto)
 - visitante -> sitio publico.
-- Sitio publico -> servicios de terceros (formularios, analitica, email).
+- Sitio publico -> Formspree (envio de formulario).
 
 ### Objetivos de seguridad
 - Proteger datos de contacto.
@@ -49,7 +48,7 @@
 
 ### Supuestos clave
 - El portafolio sera monolingue inicialmente.
-- El contacto se gestionara via formulario o correo.
+- El contacto se gestionara via formulario (Formspree) y correo.
 - El contenido tecnico y de negocio se equilibrara en el copy final.
 
 ### Puntos a validar

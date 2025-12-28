@@ -21,7 +21,7 @@
 
 ### Herramientas sugeridas
 - Monitor de uptime simple.
-- Logs de backend con retention controlada.
+- Logs del proveedor de formularios y notificaciones por email.
 
 ### Playbooks
 - Incidente de spam: bloquear IPs + ajustar captcha.

@@ -26,8 +26,10 @@
 - Boton primario: fondo acento, texto blanco, hover con leve cambio de tono.
 - Boton secundario: borde acento, fondo transparente.
 - Cards de servicios: icono + titulo + beneficio.
+- Cards de proyectos: titulo + descripcion + link.
 - Cards de casos: resultado destacado + contexto.
 - Barra de navegacion fija con CTA.
+- Modal de privacidad con contenido legal.
 
 ### Layout
 - Grid modular 12 columnas.
@@ -43,6 +45,7 @@
 - Formularios con hints claros (que se recolecta y por que).
 - Mensajes de error sin detalles tecnicos.
 - Links externos con indicador visual.
+- Modal con cierre accesible (escape/click fuera).
 
 ### Evidencia verificable
 - Guia de estilos con tokens.

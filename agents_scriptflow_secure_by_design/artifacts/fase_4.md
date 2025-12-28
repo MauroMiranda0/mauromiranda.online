@@ -13,6 +13,7 @@
 - Conversion rapida: Home -> Servicios -> Contacto.
 - Confianza: Home -> Sobre mi -> Contacto.
 - Prueba social: Home -> Casos -> Contacto.
+- Explorar trabajos: Home -> Proyectos -> Contacto.
 
 ### Wireframe textual por pagina
 - Home
@@ -25,6 +26,9 @@
   - Lista por disciplina con resultados esperados.
   - Seccion de proceso/entregables.
   - CTA.
+- Proyectos
+  - Cards con enlaces a trabajos seleccionados.
+  - Boton "ver mas" para expandir el listado.
 - Sobre mi
   - Historia profesional, stack/credenciales.
   - Diferenciadores (ingenieria + SEO + UX).
@@ -35,7 +39,7 @@
   - CTA.
 - Contacto
   - Formulario simple.
-  - Aviso de privacidad y alternativa de contacto directo.
+  - Aviso de privacidad en modal y alternativa de contacto directo.
 
 ### Microinteracciones
 - Hover en CTAs y cards.
@@ -51,7 +55,7 @@
 - Consentimiento explicito en formulario (checkbox opcional si aplica).
 - Anti-spam discreto (honeypot o captcha ligero).
 - Rate limit invisible para usuario legitimo.
-- Indicadores de HTTPS/seguridad en footer/politica.
+- Indicadores de HTTPS/seguridad en footer y modal de privacidad.
 
 ### Evidencia verificable
 - User flows documentados.

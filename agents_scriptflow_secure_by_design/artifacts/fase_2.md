@@ -12,6 +12,7 @@
 ### Requerimientos funcionales principales
 - Home con propuesta de valor, CTA primario y resumen de servicios.
 - Servicios con bloques por disciplina (Dev / SEO / UX / Consultoria / Mantenimiento) y beneficios medibles.
+- Proyectos con tarjetas y enlaces a trabajos seleccionados.
 - Sobre mi con narrativa profesional y credenciales.
 - Casos de exito con resultados y contexto (sin datos sensibles de clientes).
 - Contacto con formulario y alternativas de contacto directo.
@@ -40,8 +41,8 @@
 ### Controles requeridos
 - HTTPS obligatorio y redireccion forzada.
 - Proteccion anti-spam en formularios (honeypot o captcha ligero).
-- Rate limiting en endpoint de formulario.
-- Validacion y sanitizacion del input en servidor.
+- Rate limiting gestionado por Formspree (segun plan/configuracion).
+- Validacion y sanitizacion del input en Formspree.
 - Headers de seguridad basicos (CSP, HSTS, X-Content-Type-Options).
 
 ### Roles y permisos (conceptual)
@@ -49,7 +50,7 @@
 - Propietario: acceso a leads via email.
 
 ## Riesgos relevantes y mitigaciones
-- Riesgo: abuso de formulario (spam, inyeccion). Control: captcha/honeypot, rate limit, sanitizacion.
+- Riesgo: abuso de formulario (spam, inyeccion). Control: captcha/honeypot, rate limit y sanitizacion en Formspree.
 - Riesgo: fuga de datos de contacto. Control: HTTPS, minimizacion, almacenamiento seguro.
 - Riesgo: contenido no autorizado. Control: cambios solo via codigo/versionado.
 

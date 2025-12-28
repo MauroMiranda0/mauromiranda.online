@@ -7,36 +7,29 @@
 ## Backend (F8)
 
 ### Objetivo
-- Definir endpoint minimo para captacion de leads via email.
+- Definir captacion de leads via Formspree (sin backend propio).
 
-### Endpoints propuestos
-- POST /api/contacto
-  - Entrada: nombre, email, empresa (opcional), mensaje, origen
-  - Validaciones: formato email, longitud maxima, sanitizacion
-  - Controles: rate limit, honeypot/captcha, CSRF si aplica
-  - Accion: envio de email al propietario
-  - Respuesta: 200 ok con mensaje generico
+### Integracion con Formspree
+- Formulario envia POST a Formspree con campos: nombre, email, empresa (opcional), mensaje, origen.
+- Validaciones y sanitizacion gestionadas por Formspree.
+- Controles anti-spam: honeypot y rate limit segun configuracion del servicio.
 
 ### Politicas de seguridad
-- CORS restringido a dominio oficial.
-- Limites de payload para evitar abuso.
-- Logs con redaccion de PII.
-- Errores genericos sin detalles internos.
+- Evitar exponer datos sensibles en cliente.
+- Errores genericos en UI.
+- Revisar configuracion de Formspree (dominios permitidos).
 
 ### Manejo de datos
-- No persistir leads en DB; solo envio por email.
+- No persistir leads en DB; entrega directa por email.
 - Retencion segun politica definida en F7.
 
 ### Riesgos y mitigaciones
-- Spam en /api/contacto: rate limit + honeypot/captcha.
-- Inyeccion: validacion y sanitizacion estricta.
-- Exfiltracion: no exponer endpoints de leads.
+- Dependencia de tercero: revisar SLA y politicas de privacidad de Formspree.
+- Spam: activar protecciones disponibles en el servicio.
 
 ### Evidencia verificable
-- Especificacion de endpoints.
-- Contratos de validacion documentados.
-- Checklist de seguridad para API.
+- Configuracion de Formspree documentada.
+- Pruebas de envio del formulario.
 
 ## Recomendaciones para agente 9
-- Definir integracion frontend-backend y manejo de errores.
-- Establecer pruebas basicas de endpoints.
+- Definir integracion frontend y manejo de errores del formulario.

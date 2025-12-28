@@ -13,6 +13,7 @@
 - Navegacion entre secciones y enlaces.
 - Validacion de formulario (campos requeridos y formato email).
 - Envio correcto de formulario y mensajes de estado.
+- Apertura/cierre del modal de privacidad.
 
 ### Pruebas no funcionales
 - Responsive en mobile/tablet/desktop.
@@ -20,8 +21,8 @@
 - Accesibilidad (contraste, focus, labels).
 
 ### Pruebas de seguridad
-- Casos negativos en /api/contacto (payloads maliciosos).
-- Rate limit y anti-spam funcionando.
+- Casos negativos en Formspree (payloads maliciosos).
+- Rate limit y anti-spam funcionando (segun configuracion de Formspree).
 - Verificacion de headers de seguridad.
 - Revisar ausencia de PII en logs del cliente.
 

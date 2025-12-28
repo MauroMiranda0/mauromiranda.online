@@ -10,7 +10,7 @@
 - Definir integracion con backend y comportamientos UI seguros para el sitio.
 
 ### Integracion frontend-backend
-- Formulario de contacto envia POST a /api/contacto.
+- Formulario de contacto envia POST a Formspree.
 - Manejo de estados: loading, exito, error generico.
 - Validacion client-side (formato y campos requeridos) + server-side.
 
@@ -23,6 +23,7 @@
 - Cargar scripts externos con integridad (SRI) cuando aplique.
 - Minimizar scripts de tracking.
 - Consentimiento para cookies si se integra analitica.
+- Configuracion de dominio permitido en Formspree.
 
 ### Performance y accesibilidad
 - Lazy load de imagenes.

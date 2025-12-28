@@ -13,10 +13,10 @@
 - Publico:
   - / (Home)
   - /servicios
+  - /proyectos
   - /sobre-mi
   - /casos-de-exito
   - /contacto
-  - /privacidad (aviso/politica)
 
 ### Jerarquia de navegacion
 - Nave principal: Home, Servicios, Sobre mi, Casos, Contacto.
@@ -26,9 +26,10 @@
 ### Estructura por pagina (bloques)
 - Home: Hero + Propuesta de valor + Servicios destacados + Prueba social + Proceso/Metodo + CTA.
 - Servicios: Cards por disciplina + Beneficios + CTA.
+- Proyectos: Cards con enlaces a trabajos seleccionados + CTA secundario.
 - Sobre mi: Historia + Credenciales + Diferenciadores + CTA.
 - Casos: Lista de casos + Metricas (anonimizadas) + CTA.
-- Contacto: Formulario + Datos de contacto + Aviso de privacidad.
+- Contacto: Formulario + Datos de contacto + Aviso de privacidad (modal).
 
 ### Flujos clave
 - Conversion: Home -> Servicios/Casos -> Contacto.

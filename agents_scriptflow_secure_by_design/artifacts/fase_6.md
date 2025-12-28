@@ -12,21 +12,21 @@
 ### Propuesta tecnica (baseline)
 - Landing page estatica (HTML/CSS/JS o generador estatico).
 - Hosting con CDN y HTTPS (Vercel/Netlify u equivalente).
-- Formulario con backend ligero (serverless) que envia email.
+- Formulario gestionado por Formspree (entrega por email).
 - Analitica basica con enfoque en privacidad.
 
 ### Componentes y fronteras de confianza
 - Cliente (browser) -> sitio publico (CDN/hosting).
-- Sitio publico -> servicio de formulario (serverless/tercero) -> email.
+- Sitio publico -> Formspree -> email.
 
 ### Dependencias externas
 - Hosting/CDN.
-- Servicio de formularios o backend serverless para envio de email.
+- Formspree para envio de email.
 - Analitica (si se incorpora).
 
 ### Seguridad por componente
 - CDN/hosting: HTTPS forzado, HSTS, headers de seguridad.
-- Formulario: validacion/sanitizacion, rate limit, honeypot/captcha.
+- Formulario: validacion/sanitizacion y rate limit gestionados por Formspree, honeypot/captcha.
 
 ### Gestion de secretos
 - Llaves de email/API en entorno seguro (variables de entorno o vault).

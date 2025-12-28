@@ -18,6 +18,7 @@
 - Ajustar copy y CTAs segun conversion.
 - Optimizar formularios para reducir friccion.
 - Revisar dependencias y parches.
+- Actualizar tarjetas de proyectos y enlaces.
 
 ### Seguridad continua
 - Revisar threat model cada ciclo.

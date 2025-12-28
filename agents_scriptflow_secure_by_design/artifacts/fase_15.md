@@ -14,6 +14,7 @@
 - Registro de riesgos y controles aplicados.
 - Checklist de seguridad por fase.
 - Runbooks basicos (backup, incidentes, rotacion de secretos).
+- Configuracion de Formspree y politicas de privacidad.
 
 ### Lecciones aprendidas
 - Riesgos mas comunes detectados.
