@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles/main.css" />
@@ -39,43 +39,42 @@
     <main id="inicio">
       <section class="hero reveal">
         <div class="hero-content">
-          <p class="eyebrow">Ingenieria Web Estrategica</p>
-          <h1>Diseno, desarrollo y SEO con enfoque tecnico y medible.</h1>
+          <span class="badge">WEB ENGINEERING · SEO · UX</span>
+          <h1>Ingenieria Web que convierte tecnologia en resultados.</h1>
           <p class="lead">
-            Integro arquitectura tecnica, UX y crecimiento para que tu presencia digital
-            sea un activo medible. Consultoria tecnica, ejecucion auditable y mantenimiento continuo.
+            Desarrollo plataformas rapidas, escalables y optimizadas desde el dia uno para SEO y
+            conversion. Menos friccion tecnica. Mas crecimiento medible.
           </p>
           <div class="hero-actions">
-            <a class="btn primary" href="#contacto">Hablar de tu proyecto</a>
-            <a class="btn ghost" href="#casos">Ver resultados</a>
+            <a class="btn primary" href="#contacto" aria-label="Hablemos de tu proyecto">
+              Hablemos de tu proyecto
+            </a>
+            <a class="btn ghost" href="#casos">Ver casos reales</a>
           </div>
-          <div class="hero-metrics">
-            <div>
-              <span class="metric">5 anos</span>
-              <span class="label">experiencia tecnica consultiva</span>
-            </div>
-            <div>
-              <span class="metric">Mantenimiento</span>
-              <span class="label">mejora continua y confiable</span>
-            </div>
-            <div>
-              <span class="metric">UX + SEO</span>
-              <span class="label">desde la arquitectura</span>
-            </div>
-          </div>
+          <p class="hero-microcopy">Respuesta en menos de 24-48h · Auditoria inicial sin costo</p>
+          <ul class="hero-bullets">
+            <li>Performance y Core Web Vitals</li>
+            <li>SEO tecnico y arquitectura indexable</li>
+            <li>UX orientado a conversion</li>
+          </ul>
         </div>
         <div class="hero-card">
-          <h2>Mapa de valor</h2>
-          <ul>
-            <li>Diagnostico estrategico</li>
-            <li>Arquitectura orientada a negocio</li>
-            <li>Implementacion con performance real</li>
-          </ul>
-          <div class="card-footer">
-            <span>mauromiranda.online</span>
-            <span class="dot"></span>
-            <span>2025</span>
+          <h2>Indicadores del dashboard</h2>
+          <div class="metric-stack">
+            <div>
+              <span class="metric">+45%</span>
+              <span class="label">trafico organico</span>
+            </div>
+            <div>
+              <span class="metric">-1.8s</span>
+              <span class="label">tiempo de carga</span>
+            </div>
+            <div>
+              <span class="metric">+22%</span>
+              <span class="label">conversion</span>
+            </div>
           </div>
+          <p class="card-note">Resultados tipicos segun el proyecto.</p>
         </div>
       </section>
 
@@ -84,28 +83,28 @@
           <h2>Servicios tecnicos para crecimiento digital</h2>
           <p>Consultoria tecnica, ejecucion y mantenimiento con foco en performance.</p>
         </div>
-        <div class="grid services">
-          <article>
-            <h3>Ingenieria Full-Stack</h3>
-            <p>Arquitectura limpia, despliegues confiables y bases tecnicas solidas.</p>
-            <span>Performance + estabilidad</span>
-          </article>
-          <article>
-            <h3>SEO desde el cimiento</h3>
-            <p>SEO tecnico, semantica y estructura orientada a visibilidad sostenida.</p>
-            <span>Visibilidad sostenible</span>
-          </article>
-          <article>
-            <h3>UX y conversion</h3>
-            <p>UX orientada a conversion con flujos claros y consistentes.</p>
-            <span>Leads calificados</span>
-          </article>
-          <article>
-            <h3>Mantenimiento y evolucion</h3>
-            <p>Iteracion continua, seguridad y mejoras que se sostienen.</p>
-            <span>Operacion estable</span>
-          </article>
-        </div>
+          <div class="grid services">
+            <article>
+              <h3>Ingenieria Full-Stack</h3>
+              <p>Arquitectura limpia, despliegues confiables y bases tecnicas solidas.</p>
+              <span class="badge">Performance + estabilidad</span>
+            </article>
+            <article>
+              <h3>SEO desde el cimiento</h3>
+              <p>SEO tecnico, semantica y estructura orientada a visibilidad sostenida.</p>
+              <span class="badge">Visibilidad sostenible</span>
+            </article>
+            <article>
+              <h3>UX y conversion</h3>
+              <p>UX orientada a conversion con flujos claros y consistentes.</p>
+              <span class="badge">Leads calificados</span>
+            </article>
+            <article>
+              <h3>Mantenimiento y evolucion</h3>
+              <p>Iteracion continua, seguridad y mejoras que se sostienen.</p>
+              <span class="badge">Operacion estable</span>
+            </article>
+          </div>
       </section>
 
       <section id="metodo" class="section reveal">
@@ -142,31 +141,37 @@
           <article class="project-card">
             <h3>Plataforma B2B</h3>
             <p>Arquitectura tecnica y UX para captacion de leads.</p>
+            <span class="badge">Consultoria</span>
             <a href="#" aria-label="Ver proyecto Plataforma B2B">Ver proyecto</a>
           </article>
           <article class="project-card">
             <h3>Consultoria digital</h3>
             <p>Landing tecnica con SEO on-page y performance estable.</p>
+            <span class="badge">SEO tecnico</span>
             <a href="#" aria-label="Ver proyecto Consultoria digital">Ver proyecto</a>
           </article>
           <article class="project-card">
             <h3>Startup SaaS</h3>
             <p>Reestructura de contenido y conversion con foco en growth.</p>
+            <span class="badge">UX + Growth</span>
             <a href="#" aria-label="Ver proyecto Startup SaaS">Ver proyecto</a>
           </article>
           <article class="project-card is-hidden">
             <h3>Operacion industrial</h3>
             <p>Mantenimiento continuo y mejoras iterativas con datos.</p>
+            <span class="badge">Mantenimiento</span>
             <a href="#" aria-label="Ver proyecto Operacion industrial">Ver proyecto</a>
           </article>
           <article class="project-card is-hidden">
             <h3>Firma legal</h3>
             <p>Arquitectura de contenido y posicionamiento tecnico.</p>
+            <span class="badge">Arquitectura</span>
             <a href="#" aria-label="Ver proyecto Firma legal">Ver proyecto</a>
           </article>
           <article class="project-card is-hidden">
             <h3>Empresa de servicios</h3>
             <p>SEO tecnico + UX para leads calificados.</p>
+            <span class="badge">Conversion</span>
             <a href="#" aria-label="Ver proyecto Empresa de servicios">Ver proyecto</a>
           </article>
         </div>
@@ -184,17 +189,17 @@
           <article>
             <h3>Consultoria industrial</h3>
             <p>Rediseno de landing con enfoque en conversion y mantenimiento.</p>
-            <strong>Mejora sostenida</strong>
+            <strong class="badge">Mejora sostenida</strong>
           </article>
           <article>
             <h3>Startup SaaS B2B</h3>
             <p>SEO tecnico + UX para posicionamiento de producto.</p>
-            <strong>Visibilidad organica</strong>
+            <strong class="badge">Visibilidad organica</strong>
           </article>
           <article>
             <h3>Firma legal</h3>
             <p>Arquitectura de contenido y estrategia de autoridad.</p>
-            <strong>Contacto calificado</strong>
+            <strong class="badge">Contacto calificado</strong>
           </article>
         </div>
       </section>
@@ -204,18 +209,19 @@
           <div>
             <h2>Sobre mi</h2>
             <p>
-              Soy ingeniero web con enfoque consultivo y tecnico. Integro tecnologia,
-              estrategia y experiencia para construir activos digitales medibles.
+              Soy Mauricio Vergara Miranda, ingeniero web y electronico con enfoque consultivo
+              y tecnico. Integro tecnologia, estrategia y experiencia para construir activos
+              digitales medibles.
             </p>
             <ul class="about-list">
-            <li>Enfoque consultivo con base tecnica</li>
-            <li>Stack moderno con performance y mantenibilidad</li>
-            <li>Visibilidad y conversion desde la arquitectura</li>
+              <li>Maestria en Ingenieria en Sitios Web</li>
+              <li>Lic. en Ingenieria en Sistemas Computacionales</li>
+              <li>TSU en Electronica y Automatizacion</li>
             </ul>
           </div>
           <div class="about-card">
-            <p>Busco proyectos con ambicion y claridad.</p>
-            <span>Cupos limitados por trimestre.</span>
+            <p>Pachuca de Soto, Hgo. Mex.</p>
+            <span>Ingles 75% · Frances 60%</span>
           </div>
         </div>
       </section>
@@ -319,4 +325,3 @@
     <script src="assets/scripts/main.js"></script>
   </body>
 </html>
-
