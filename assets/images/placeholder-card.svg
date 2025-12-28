@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240" role="img" aria-label="Placeholder card">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f2f5f9" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="240" rx="16" fill="url(#g)" stroke="#e2e6ed" />
+  <rect x="24" y="28" width="180" height="14" rx="7" fill="#0090ee" />
+  <rect x="24" y="56" width="240" height="10" rx="5" fill="#cdd8e6" />
+  <rect x="24" y="76" width="200" height="10" rx="5" fill="#cdd8e6" />
+  <rect x="24" y="120" width="312" height="8" rx="4" fill="#d9e1ec" />
+  <rect x="24" y="140" width="260" height="8" rx="4" fill="#d9e1ec" />
+  <rect x="24" y="180" width="120" height="28" rx="14" fill="#e6f3ff" />
+</svg>
